@@ -56,6 +56,7 @@ public class BrowserClass1 {
 
 	public static void closeBrowser()
 	{
+		thread.sleep(5);
 		driver.quit();
 	}
 }

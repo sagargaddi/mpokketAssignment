@@ -49,6 +49,7 @@ public class Amazon {
 
 		public static void closeBrowser()
 		{
+			thread.sleep(5);
 			driver.quit();
 		}
 	
